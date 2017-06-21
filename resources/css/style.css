@@ -1,0 +1,13 @@
+nav.siteNav {
+  position: relative;
+}
+
+nav p {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+h1.title {
+  margin-top: 20px;
+}
