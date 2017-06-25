@@ -1,20 +1,37 @@
+html {
+  background-color: black;
+  font-family: 'Space Mono'
+}
+
 h1 {
   font-size: 50px;
+  color: white;
 }
 
 h3 {
   font-size: 30px;
+  color: white;
 }
 
-.headerName {
-  border: 1px dashed;
+p {
+  color: white;
+}
+
+.myName {
   text-align: center;
+  margin-bottom: 75px;
+  position: relative;
+  top: 75px;
 }
 
 .headerNav {
-  border: 1px dashed;
-  padding: 20px;
+  padding-top: 10px;
+  position: fixed;
+  margin-top: -35px;
   text-align: center;
+  background-color: black;
+  width: 100%;
+  z-index: 5;
 }
 
 .siteNav p {
@@ -22,4 +39,17 @@ h3 {
   padding: 10px;
   margin: 10px;
   font-size: 25px;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.homePageIntro {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
 }
