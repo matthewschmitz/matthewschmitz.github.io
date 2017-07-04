@@ -1,76 +1,26 @@
 /*border: 1px solid white;*/
 
-* {
-  margin: 0px;
-  border: 0;
+html {
+  font-size: 16px;
   font-family: 'Space Mono';
   color: white;
   background-color: black;
-  margin: 0 auto;
 }
 
-#headerNav {
+header {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
-  text-align: center;
   z-index: 1000;
-  min-width: 750px;
+  text-align: center;
+  background-color: black;
 }
 
-#headerNav li {
+nav span {
   display: inline-block;
-  position: relative;
-  right: 15px;
-  padding: 15px 0px;
-  margin: 5px 25px;
-  font-size: 25px;
-}
-
-h1 {
-  font-size: 50px;
-}
-
-h3 {
-  font-size: 30px;
-}
-
-p {
-  margin: 30px 0px;
-  font-size: 16px;
-}
-
-#home,
-#projects,
-#blog,
-#contacts {
-  position: relative;
-  top: 60px;
-  padding-top: 70px;
-  width: 50%;
-}
-
-#projects img {
-  width: 100%;
-}
-
-#projects img:hover + .imageHeader,
-.imageHeader:hover {
-  opacity: 0;
-}
-
-.imageHeader {
-  position: relative;
-  bottom: 200px;
-  text-align: center;
-  opacity: 0.75;
-}
-
-.sectionHeader {
-  margin-bottom: 35px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid white;
-  text-align: center;
+  font-size: 2em;
+  margin: 15px;
 }
 
 a {
@@ -82,9 +32,96 @@ a:hover {
   color: grey;
 }
 
-.homeDivContent {
+h1 {
+  font-size: 3.125rem;
 }
 
-#introP {
-  font-size: 22px;
+h2 {
+  font-size: 2.75em;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+}
+
+.container {
+  width: 60%;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.nameplate {
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.projectGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectThumbnail {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  border: 2px solid white;
+}
+
+.projectHeader {
+  opacity: 0;
+}
+
+.projectThumbnail:hover .projectHeader {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  opacity: 0.95;
+}
+
+#raspPi {
+  background-image: url("../images/bw/RaspberryPiArcade.jpeg");
+  background-size: cover;
+}
+
+#NBAReport {
+  background-image: url("../images/bw/NBADraft.jpg");
+  background-size: cover;
+}
+
+#basketballSim {
+  background-image: url("../images/bw/BasketballSimulationGame.png");
+  background-size: cover;
+}
+
+#montyHall {
+  background-image: url("../images/bw/MontyHall.JPG");
+  background-size: cover;
 }

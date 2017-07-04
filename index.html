@@ -7,67 +7,45 @@
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet" />
   </head>
   <body>
-    <div id="headerNav">
+    <header>
       <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <span><a href="#home">Home</a></span>
+        <span><a href="#projects">Projects</a></span>
+        <span><a href="#blog">Blog</a></span>
+        <span><a href="#contact">Contact</a></span>
       </nav>
-    </div>
-    <div id="home">
-      <div id="myName" class="sectionHeader">
-        <h1>Matthew Schmitz</h1>
-        <h3>Biomedical Sciences Student</h3>
-      </div>
-      <div class="homeDivContent">
-        <p id="introP">Hi, I’m Matthew Schmitz, an Honours Biomedical Sciences student at the University of Waterloo.
-        On this site you’ll find links to my past and ongoing projects, <a href="./resources/pdfs/MatthewSchmitzResume.pdf" target="_blank">my resume</a>, my blog articles, and a little bit about me.</p>
-        <p>I am a huge fan of hip-hop, the NBA, and casual programming, but as I write this I don't know whether the content of my site will evolve to reflect that.
-        I imagine my site will become somewhat of a space to share the projects I have on the go and the ones that I have completed, as well as share some of my thoughts
-        and feelings on topics I find interesting. This site was coded by myself, and I intend to stick with the simple design that you see now.</p>
-        <p>To provide you with a brief introduction, I am a very passionate learner who has always welcomed and embraced challenges. I have always performed well in school, and I continued
-        that trend in my first year of university at the University of Waterloo where I studied Systems Design Engineering. I finished my first term in the class's 97th percentile, and proceeded
-        to work at LOGiQ3 in Toronto as a Systems Developer for my first Co-op work term from January to April of 2017. I realized, however, that I was not enjoying the core engineering courses
-        as much as I had expected to, and I found myself missing the science material that had so easily captured my interest in high school. For this reason, I decided to make the decision to
-        switch to the Biomedical Sciences program, beginning in September of 2017. As I write this, I have not yet begun my studies in the new program, but I am looking forward to getting back
-        to school in September. I cannot wait to see what opportunities arise in my new program.</p>
-      </div>
-    </div>
-    <div id="projects">
-      <h1 class="sectionHeader">Projects</h1>
-      <div id="RaspberryPiArcade">
-        <img src="./resources/images/bw/RaspberryPiArcade.jpeg" />
-        <div class="imageHeader">
-          <h1>Raspberry Pi Arcade</h1>
+    </header>
+    <div class="container">
+      <div id="home">
+        <div class="nameplate">
+          <h1>Matthew Schmitz</h1>
+          <h3>Biomedical Sciences Student</h3>
+        </div>
+        <div class="homeContent">
+          <p>Hi, I’m Matthew Schmitz, an Honours Biomedical Sciences student at the University of Waterloo. On this site you’ll find links to my past and ongoing projects, <a href="./resources/pdfs/MatthewSchmitzResume.pdf" target="_blank">my resume</a>, my blog articles, and a little bit about me.</p>
         </div>
       </div>
-      <div id="NBADraftPicks">
-        <img src="./resources/images/bw/NBADraft.jpg" />
-        <div class="imageHeader">
-          <h1>NBA Draft Analysis</h1>
+      <div id="projects">
+        <h1>Projects</h1>
+        <div class="projectGallery">
+          <div class="projectThumbnail" id="raspPi">
+            <div class="projectHeader"><p>Raspberry Pi Retro Arcade</p></div>
+          </div>
+          <div class="projectThumbnail" id="NBAReport">
+            <div class="projectHeader"><p>NBA Draft Analysis</p></div>
+          </div>
+          <div class="projectThumbnail" id="basketballSim">
+            <div class="projectHeader"><p>Basketball Simulation Game</p></div>
+          </div>
+          <div class="projectThumbnail" id="montyHall">
+            <div class="projectHeader"><p>Monty Hall Problem</p></div>
+          </div>
         </div>
       </div>
-      <div id="BasketballSimulationGame">
-        <img src="./resources/images/bw/BasketballSimulationGame.jpg" />
-        <div class="imageHeader">
-          <h1>Basketball Simulation</h1>
-        </div>
+      <div id="blog">
       </div>
-      <div id="MontyHallProblem">
-        <img src="./resources/images/bw/MontyHall.JPG" />
-        <div class="imageHeader">
-          <h1>Monty Hall Problem</h1>
-        </div>
+      <div class="social">
       </div>
-    </div>
-    <div id="blog">
-    </div>
-    <div id="content">
-    </div>
-    <div class="social">
     </div>
   </body>
 </html>
