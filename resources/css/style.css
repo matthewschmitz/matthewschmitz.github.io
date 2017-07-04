@@ -1,4 +1,4 @@
-/*border: 1px solid white;*/
+/* CSS for home page */
 
 html {
   font-size: 16px;
@@ -44,6 +44,18 @@ h3 {
   font-size: 2rem;
 }
 
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1.25em;
+}
+
 p {
 }
 
@@ -63,6 +75,7 @@ p {
   padding-top: 40px;
 }
 
+.blogTitleBar,
 .nameplate {
   width: 100%;
   border-bottom: 1px solid white;
@@ -150,4 +163,37 @@ p {
 #curiousityConversation1 {
   background-image: url("../images/bw/Laptop.jpg");
   background-size: cover;
+}
+
+/* CSS for Blog Articles and Project Pages */
+
+.blogContent {
+  width: 60%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.headerImageContainer {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bodyImageContainer {
+  width: 60%;
+  overflow: hidden;
+  margin: 50px auto 0 auto;
+}
+
+.imageCaption {
+  display: inline-block;
+  width: 60%;
+  font-size: 0.75em;
+  margin-bottom: 10px;
 }
