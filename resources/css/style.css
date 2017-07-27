@@ -21,12 +21,12 @@ header p {
 header a {
   color: white;
   text-decoration: none;
-  transition: letter-spacing 0.75s ease;
+  opacity: 0.7;
+  transition: all 0.75s ease;
 }
 
 header a:hover {
-  letter-spacing: 0.2rem;
-  font-weight: bold;
+  opacity: 1;
 }
 
 /* Banner styling */
@@ -48,4 +48,9 @@ header a:hover {
   text-align: center;
   font-style: italic;
   text-shadow: 0.07rem 0.07rem black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
