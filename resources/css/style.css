@@ -4,17 +4,41 @@ html {
   color: white;
 }
 
+/* Header styling */
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+}
+
+header p {
+  display: inline-block;
+  padding: 1rem;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  transition: letter-spacing 0.75s ease;
+}
+
+header a:hover {
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+}
+
 /* Banner styling */
 
 #banner {
   width: 100vw;
   height: 100vh;
-  background-image: url("../images/bg.png");
-  background-size: 100% 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/banner.jpg");
+  background-size: cover;
   background-position: center;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
 }
 
 #banner h1 {
@@ -22,42 +46,6 @@ html {
   font-size: 5rem;
   width: 100%;
   text-align: center;
-}
-
-#banner nav {
-  display: inline-block;
-  text-align: center;
-}
-
-.left-align {
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-}
-
-.right-align {
-  margin-right: 1rem;
-  margin-top: 1rem;
-}
-
-.left-align a {
-  text-align: left;
-}
-
-.right-align a {
-  text-align: right;
-}
-
-#banner a {
-  text-decoration: none;
-  color: white;
-  transition: all 0.75s ease;
-}
-
-#banner p {
-  font-size: 2.5rem;
-  margin-top: 1rem;
-}
-
-#banner a:hover {
-  letter-spacing: 2rem;
+  font-style: italic;
+  text-shadow: 0.07rem 0.07rem black;
 }
