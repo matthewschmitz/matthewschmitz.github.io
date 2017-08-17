@@ -4,18 +4,32 @@ html {
   color: white;
 }
 
+b {
+  font-weight: bold;
+}
+
 /* Header styling */
 
 header {
   position: fixed;
+  display: flex;
+  justify-content: space-between;
   top: 0;
   width: 100%;
-  text-align: right;
 }
 
 header p {
   display: inline-block;
   padding: 1rem;
+}
+
+header h1 {
+  display: inline-block;
+  padding: 1rem;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 0.07rem 0.07rem black;
 }
 
 header a {
@@ -26,6 +40,11 @@ header a {
 }
 
 header a:hover {
+  opacity: 1;
+}
+
+.selected a {
+  font-weight: 700;
   opacity: 1;
 }
 
