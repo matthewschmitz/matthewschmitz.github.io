@@ -1,0 +1,55 @@
+#blogBody {
+  width: 50%;
+  margin: 0 auto;
+  height: 10rem;
+  color: black;
+}
+
+nav p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-top: 2.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+a {
+  color: #262626;
+  font-weight: bold;
+}
+
+ol,
+p {
+  margin: 1.75rem 0;
+  line-height: 1.5;
+  color: #262626;
+  list-style-type: decimal;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+}
+
+.dateBar {
+  margin: 2rem 0;
+  text-align: center;
+  color: #595959;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.blockQuote,
+.orderedLists {
+  margin-left: 2.5rem;
+}

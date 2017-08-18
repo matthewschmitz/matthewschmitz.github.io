@@ -3,12 +3,6 @@ header {
   top: 0;
 }
 
-#banner {
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/projects.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 .iconContainer {
   width: 100%;
   position: absolute;
@@ -16,24 +10,24 @@ header {
   bottom: 1rem;
 }
 
-#projectsArrow {
+#downArrow {
   color: white;
   margin: 0 auto;
   opacity: 0.75;
   transition: opacity 1s ease;
 }
 
-#projectsArrow:hover {
+#downArrow:hover {
   opacity: 1;
 }
 
 /* BODY */
 
-#projectsBody {
+.contentBody {
   width: 100%;
 }
 
-.projectTitle {
+.contentTitle {
   width: 100%;
   background-color: #f2f2f2;
   display: flex;
@@ -42,33 +36,33 @@ header {
   border-top: 1px solid #d9d9d9;
 }
 
-.projectTitle:hover {
+.contentTitle:hover {
   background-color: white;
   cursor: pointer;
 }
 
-.projectTitle h1 {
+.contentTitle h1 {
   font-size: 2.5rem;
   font-weight: bold;
   color: #333333;
   margin: 1.5rem;
 }
 
-.projectTitle span {
+.contentTitle span {
   font-weight: normal;
 }
 
-.projectTitle i {
+.contentTitle i {
   color: #333333;
   margin-right: 1.5rem;
 }
 
-.projectDescription {
+.contentDescription {
   display: flex;
   align-items: center;
 }
 
-.projectDescriptionImage {
+.contentDescriptionImage {
   height: 30rem;
   width: 40rem;
   overflow: hidden;
@@ -76,28 +70,28 @@ header {
   flex-shrink: 0;
 }
 
-.projectDescriptionImage img {
+.contentDescriptionImage img {
   height: 100%;
 }
 
-.projectDescriptionBody {
+.contentDescriptionBody {
   height: 30rem;
   margin-right: 2rem;
   color: black;
   overflow: scroll;
 }
 
-.projectDescriptionBody p:first-child {
+.contentDescriptionBody p:first-child {
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
-.projectDescriptionBody p {
+.contentDescriptionBody p {
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
-.projectDescriptionBody a {
+.contentDescriptionBody a {
   color: black;
   font-weight: bold;
 }

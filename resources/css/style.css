@@ -43,7 +43,7 @@ header a:hover {
   opacity: 1;
 }
 
-.selected a {
+p.selected {
   font-weight: 700;
   opacity: 1;
 }
