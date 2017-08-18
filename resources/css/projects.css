@@ -1,5 +1,5 @@
 #banner {
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/projects.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/cn.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
