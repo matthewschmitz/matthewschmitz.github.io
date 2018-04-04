@@ -11,3 +11,8 @@
 .bookDescription {
   margin-top: 0.5rem;
 }
+
+.italicsBold {
+  font-style: italic;
+  font-weight: bold;
+}
