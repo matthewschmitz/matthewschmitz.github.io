@@ -2,6 +2,12 @@
   background-image: url("./images/reading-list.jpg");
 }
 
+.dateRange {
+  margin-bottom: 0.7rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
 .bookTitle {
   margin-bottom: 0.5rem;
   font-size: 1.3rem;
